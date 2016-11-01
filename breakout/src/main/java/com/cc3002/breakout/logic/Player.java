@@ -18,18 +18,15 @@ public class Player implements IPlayer {
     this.score = 0;
   }
   
-  @Override
   public int getNumberOfHearts() {
     return this.hearts;
   }
   
-  @Override
   public int lossOfHeart() {
     this.hearts -= 1;
     return this.hearts;
   }
   
-  @Override
   public long earnedScore() {
     return score;
   }

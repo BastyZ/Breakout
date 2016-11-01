@@ -93,27 +93,29 @@ public class HomeworkOneFacadeTest {
   
   
   private boolean bricksComparer(final List<IBrick> list1, final List<IBrick> list2) {
+    boolean bool = true;
     int position;
     for( position = 0; position < list2.size(); position++){
       if( list1.get(position).isSoftBrick() && list2.get(position).isSoftBrick() ) {
         continue;
       } else { 
-        return false; 
+        bool = false; 
       }
     }
-    return true;
+    return bool;
   }
 
   private boolean softBricksListComparer( final List<IBrick> list) {
+    boolean bool = true;
     int position;
     for( position = 0; position < list.size(); position++) {
       if( list.get(position).isSoftBrick() ) {
         continue;
       } else { 
-        return false; 
+        bool = false; 
       }
     }
-    return true;
+    return bool;
   }
 
 }

@@ -15,7 +15,6 @@ public class Printer implements IPrinter {
   private static char stoneBrick = '#';
   
 
-  @Override
   public String spawnBricks(final List<IBrick> list ) {
     final StringBuilder aStringBuilder = new StringBuilder();
     int position;
@@ -29,13 +28,11 @@ public class Printer implements IPrinter {
   }
 
 
-  @Override
   public char printSoftBrick() {
     return softBrick;
   }
 
 
-  @Override
   public char printStoneBrick() {
     return stoneBrick;
   }

@@ -24,7 +24,6 @@ public abstract class AbstractBrick implements IBrick {
   
   public abstract char charChooser(final IPrinter printer);
   
-  @Override
   public int remainingHits() {
     return this.hitsLeft;
   }

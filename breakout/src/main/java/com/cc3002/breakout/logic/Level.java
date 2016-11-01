@@ -56,31 +56,26 @@ public class Level implements ILevel {
   }
   
 
-  @Override
   public int numberOfBricks() {
     return brickList.size();
   }
   
 
-  @Override
   public String getLevelName() {
     return this.levelName;
   }
   
 
-  @Override
   public int getRequiredPoints() {
     return this.requiredPoints;
   }
   
 
-  @Override
   public List<IBrick> getBricks() {
     return this.brickList;
   }
   
 
-  @Override
   public String spawnBricks() {
     final IPrinter aPrinter = new Printer();   
     return aPrinter.spawnBricks( brickList );
