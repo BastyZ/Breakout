@@ -1,14 +1,7 @@
-My New App
+Breakout
 ==========
 
-Este es el README de mi nueva aplicación MyNewApp.
+Este es el README de mi nueva aplicación Breakout.
 
-Este fichero se usa de ejemplo dentro del blog de aprendegit.com para crear un primer repositorio.
+Este fichero es usado solo para aprender a usar SourceTree.
 
-Ejemplos de markdown
---------------------
-
-Así se crean secciones y subsecciones. Para crear una enumeración utilizamos:
-+ Elemento 1
-+ Elemento 2
-+ Elemento 3
