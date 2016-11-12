@@ -2,6 +2,9 @@ package com.cc3002.breakout.logic;
 
 import java.util.List;
 
+import com.cc3002.breakout.logic.brick.IBrick;
+import com.cc3002.breakout.logic.level.ILevel;
+
 /** Very poor ASCII art like printer, that spawns brick 
  * of an ILevel instance (List of type IBrick of a Ilevel object) as an array
  * with row of 16 bricks.

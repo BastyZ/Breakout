@@ -1,4 +1,6 @@
-package com.cc3002.breakout.logic;
+package com.cc3002.breakout.logic.brick;
+
+import com.cc3002.breakout.logic.IPrinter;
 
 /** 
  * Abstract class of any bricks. Keeps count of remainig hits for all the instances

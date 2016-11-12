@@ -1,4 +1,6 @@
-package com.cc3002.breakout.logic;
+package com.cc3002.breakout.logic.brick;
+
+import com.cc3002.breakout.logic.IPrinter;
 
 /** IBrick instance subclass by specialization, each one
  * of these knows what kind of brick it is and how many hits
@@ -6,29 +8,29 @@ package com.cc3002.breakout.logic;
  * 
  * @author Bastián Inostroza
  * @see AbstractBrick
- * @see SoftBrick
+ * @see StoneBrick
  */
-public class StoneBrick extends AbstractBrick {
+public class SoftBrick extends AbstractBrick {
   
-  
-  public StoneBrick() {
-    super(3);
+  public SoftBrick() {
+    super( 1 );
   }
-
-
+  
+  
   public boolean isSoftBrick() {
-    return false;
+    return true;
   }
 
   
   public boolean isStoneBrick() {
-    return true;
+    return false;
   }
 
   
   @Override
   public char charChooser(final IPrinter printer) {
-    return printer.printStoneBrick();
+    return printer.printSoftBrick();
   }
+
   
 }

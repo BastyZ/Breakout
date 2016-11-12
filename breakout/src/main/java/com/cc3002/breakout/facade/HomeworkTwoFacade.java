@@ -13,14 +13,13 @@ import com.cc3002.breakout.logic.level.Level;
  * @author Bastián Inostroza
  *
  */
-public class HomeworkOneFacade {
-
-  private transient boolean nextLevel;
+public class HomeworkTwoFacade {
+  private final transient boolean nextLevel;
   private transient ILevel currentLevel;
   private transient IPlayer currentPlayer;
   
   
-  public HomeworkOneFacade() {
+  public HomeworkTwoFacade() {
     this.nextLevel = false;
   }
   
@@ -99,4 +98,6 @@ public class HomeworkOneFacade {
   public String spawnBricks(final ILevel level) {
     return currentLevel.spawnBricks();
   }
+  
+  
 }

@@ -1,6 +1,8 @@
-package com.cc3002.breakout.logic;
+package com.cc3002.breakout.logic.level;
 
 import java.util.List;
+
+import com.cc3002.breakout.logic.brick.IBrick;
 
 /** ILevel interface determines the basic methods for any level
  * in the game.

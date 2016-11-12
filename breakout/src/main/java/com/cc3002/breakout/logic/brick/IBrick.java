@@ -1,5 +1,6 @@
-package com.cc3002.breakout.logic;
+package com.cc3002.breakout.logic.brick;
 
+import com.cc3002.breakout.logic.IPrinter;
 
 /** Bricks interface that works with any AbstractBrick sub class,
  * bricks have to know what kind of brick are themselves and
@@ -19,5 +20,6 @@ public interface IBrick {
   int remainingHits();
   
   boolean hit();
+  
 
 }

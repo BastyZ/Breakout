@@ -1,5 +1,7 @@
 package com.cc3002.breakout.logic;
 
+import com.cc3002.breakout.logic.level.ILevel;
+
 /** Basic player that plays in a ILevel level instance,
  * all players star with the same quantity of hearts (3)
  * and dies when hearts como down to zero.

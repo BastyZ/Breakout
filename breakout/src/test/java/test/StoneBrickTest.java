@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.cc3002.breakout.logic.IBrick;
-import com.cc3002.breakout.logic.StoneBrick;
+import com.cc3002.breakout.logic.brick.IBrick;
+import com.cc3002.breakout.logic.brick.StoneBrick;
 
 public class StoneBrickTest {
 

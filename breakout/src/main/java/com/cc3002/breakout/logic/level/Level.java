@@ -1,7 +1,13 @@
-package com.cc3002.breakout.logic;
+package com.cc3002.breakout.logic.level;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cc3002.breakout.logic.IPrinter;
+import com.cc3002.breakout.logic.Printer;
+import com.cc3002.breakout.logic.brick.IBrick;
+import com.cc3002.breakout.logic.brick.SoftBrick;
+import com.cc3002.breakout.logic.brick.StoneBrick;
 
 /** Basic tipo of level, each instance have his own name,
  * number of bricks, and a probability of having soft bricks.

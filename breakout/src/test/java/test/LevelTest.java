@@ -8,6 +8,10 @@ import java.util.List;
 import org.junit.Test;
 
 import com.cc3002.breakout.logic.*;
+import com.cc3002.breakout.logic.brick.IBrick;
+import com.cc3002.breakout.logic.brick.SoftBrick;
+import com.cc3002.breakout.logic.brick.StoneBrick;
+import com.cc3002.breakout.logic.level.Level;
 
 public class LevelTest {
   
